@@ -1,7 +1,6 @@
 package com.ryun.bottomnavigationexample.fragment
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -27,9 +26,8 @@ class StartFragment : Fragment() {
 
         navController = Navigation.findNavController(view)
 
-        button.setOnClickListener {
+        start_btn.setOnClickListener {
             navController.navigate(R.id.action_startFragment_to_homeFragment)
         }
-        Log.d("testcall", "???")
     }
 }

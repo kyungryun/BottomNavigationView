@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         navController.addOnDestinationChangedListener{ _, destination, _ ->
             when(destination.id){
-                R.id.homeFragment, R.id.searchFragment, R.id.menuFragment -> setBottomNavVisibility(true)
-                else -> setBottomNavVisibility(false)
+                R.id.startFragment -> setBottomNavVisibility(false)
+                else -> setBottomNavVisibility(true)
             }
         }
         bottom_nav_bar.setupWithNavController(navController)
