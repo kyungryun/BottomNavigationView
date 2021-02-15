@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return findNavController(R.id.nav_host_fragment_container).navigateUp(appBarConfiguration)
+        return findNavController(R.id.nav_host_fragment).navigateUp(appBarConfiguration)
     }
 
     private fun setBottomNavVisibility(isVisible: Boolean){
