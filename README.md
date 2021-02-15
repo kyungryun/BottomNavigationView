@@ -1,4 +1,7 @@
 # BottomNavigationView
 BottomNavigationView using Navigation Component
 
-안드로이드 Jetpack Navigation 을 활용한 BottomNavigationView 구현  
+https://github.com/android/architecture-components-samples/tree/master/NavigationAdvancedSample
+
+위 예제의 NavigationExtensions.kt 코드를 활용하여 Multiple BackStack 구현 예정
+
